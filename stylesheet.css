@@ -1,0 +1,111 @@
+#container{
+	margin-right: auto;
+	margin-left: auto;
+	width:960px;
+}
+.header{
+	background: url("img/하늘.jpg");
+	background-size: cover;
+	height: 700px;
+}
+.gnb{
+	font-family: '한컴 쿨재즈 L';
+	font-size: 25px;
+}
+.gnb > h1{
+	display: inline;
+}
+.gnb > h3 {
+	display: inline;
+}
+.gnb>ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 10px;
+}
+.gnb>ul>li{
+	float: left;
+	margin-left:30px;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+.main_header>img{
+	display: block;
+	padding-left: 405px;
+}
+.main_header{
+	text-align: center;
+	color: black;
+	padding-top:100px;
+	font-family: 'Tekton Pro'
+}
+.main_header>p{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.section_container>article>img{
+	width: 300px;
+	height: 300px;
+	border:0px;
+	border-radius: 200px 200px 200px 200px;
+
+}
+.section_container{
+	margin-right: auto;
+	margin-left: auto;
+	width:960px;
+	font-size:20px;
+	font-family: 'Tekton Pro'
+
+
+}
+.section_container>article > img{
+	float:left;
+	padding-bottom: 20px;
+}
+.section_container>article > ul{
+	float: left;
+	padding-left: 200px;
+	padding-top: 50px;
+	font-size: 18px;
+}
+.section_container::after{
+	clear: both;
+	content: "";
+	display: block;
+}
+.section1{
+	background-color: #FFFFC5;
+}
+.section_container>article>h3{
+	margin-top: 0px;
+	padding-top: 30px;
+}
+.section2>img{
+	float: left;
+}
+
+.section2_container>article img{
+	height: 450px;
+	width: 400px;
+}
+.section2_container>h2{
+	text-align:center;
+	font-family: 'Tekton Pro'
+
+}
+.section2_container>article p{
+	font-family: '한컴 바겐세일 B'
+}
+.article1{
+	float: left;
+}
+.article2{
+	float: left;
+}
+.footer{
+	text-align: center;
+	font-family: 'Tekton Pro'
+}
